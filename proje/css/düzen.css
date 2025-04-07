@@ -1,0 +1,124 @@
+.navbar {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: gainsboro !important;
+    transform: scale(1.05);
+
+}
+
+body {
+    background-color: whitesmoke;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 2px;
+}
+
+.ürünler {
+    margin-bottom: 30;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    border-radius: 2px;
+    background-color: gainsboro;
+}
+
+.navbar {
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 2px;
+}
+
+.nav-item {
+
+    margin-left: 30px;
+}
+
+.UrunButon {
+    margin-left: auto;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+}
+
+.UrunKart {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 250px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    transition: box-shadow 0.2s ease-in-out;
+    flex-shrink: 0;
+}
+
+.UrunKart:hover {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.UrunResim {
+    width: 50%;
+    height: 40%;
+    border-radius: 8px;
+}
+
+.product-title {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.product-price {
+    font-size: 16px;
+    color: #555;
+    margin: 10px 0;
+}
+
+.add-to-cart {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background 0.2s;
+}
+
+.add-to-cart:hover {
+    background: #444;
+}
+
+.MainCard {
+
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 18px;
+    margin-right: 15px;
+    width: auto;
+    height: auto;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+
+
+}
+
+.Main {
+    font-size: 30px;
+    text-align: left;
+    color: #333;
+}
+
